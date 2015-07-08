@@ -1,0 +1,26 @@
+{
+	"ImportPath": "github.com/bountylabs/etcd_groupcache",
+	"GoVersion": "go1.4.1",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/bountylabs/log",
+			"Rev": "4e8dfa413d62fd7993a92585426009884a175a3f"
+		},
+		{
+			"ImportPath": "github.com/coreos/go-etcd/etcd",
+			"Comment": "v0.4.6",
+			"Rev": "6aa2da5a7a905609c93036b9307185a04a5a84a5"
+		},
+		{
+			"ImportPath": "github.com/golang/groupcache",
+			"Rev": "604ed5785183e59ae2789449d89e73f3a2a77987"
+		},
+		{
+			"ImportPath": "github.com/golang/protobuf/proto",
+			"Rev": "f78e6df1618bbffcfc67c1e006a088d834081226"
+		}
+	]
+}
